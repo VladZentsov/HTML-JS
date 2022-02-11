@@ -1,0 +1,203 @@
+#FirstLayer{
+    background-color: red;
+    height: 720px;
+}
+#SecondLayer{
+    background-color: rgb(44, 140, 204);
+    height: 850px;
+}
+#ThirdLayer{
+    background-color: rgb(54, 54, 54);
+    height: 440px;
+}
+#footer{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgb(95, 95, 95);
+    height: 50px;
+    width: 2000px;
+}
+#text-bottom-line{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 5px;
+    background-color: white;
+}
+p{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: rgb(173, 173, 173);
+}
+.head-text-block{
+    padding-top: 50px;
+}
+.head-text,
+.under-head-text{
+    color: white;
+    text-align: center;
+    font-size: 14pt;
+    line-height: 0.1;
+}
+.head-text{
+    font-size: 30pt;
+}
+.under-head-text{
+    opacity: 80%;
+}
+.photo-table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(238, 119, 98);
+}
+table .head-text{
+    font-size: 20pt;
+}
+table .under-head-text{
+    font-size: 12pt;
+}
+
+table th p:hover{
+    color: red;
+}
+#table-container{
+    margin-top: 50px;
+}
+.box {
+    position: relative;
+    overflow:hidden;
+    width:20vmax;
+    height: 240px;
+ }
+ .box img{
+    position: absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   width:240px;
+   height:240px;
+   object-fit:cover;
+ }
+ .box:hover {
+    transform: scale(1.4);
+    z-index: 1;
+}
+
+.arrow {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 50%;
+  }
+  .arrow:after {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    transform: rotate(-45deg);
+  }
+  .submit-form{
+      background-color: white;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height: 400px;
+  }
+  #triangle{
+    margin-left: auto;
+    margin-right: auto;
+    width: 0px;
+    border: 30px solid transparent;
+    border-bottom: 30px solid white;
+  }
+  .normal-text{
+      text-align: center;
+      font-size: 12pt;
+  }
+input{
+    text-indent: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 3px;
+    width: 60%;
+    height: 45px;
+    margin-top: 10px;
+
+}  
+input:focus{
+    outline: none;
+    border: 2px solid rgb(44, 140, 204);
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+form {text-align:center;}
+button{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 15pt;
+    border-radius: 3px;
+    margin-top: 30px;
+    height: 50px;
+    width: 180px;
+}
+.submit-button
+{
+    background-color: red;
+    border: 1px solid red;
+}
+#cross {
+    background: red;
+    border: 0.1875em solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: white;
+    text-align:center;
+    display: table-cell;
+
+    position:absolute;
+    right:-15px;
+    top:-15px;
+  }
+  #container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  .image-block{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid rgb(138, 138, 138);
+  }
+  .image-block:hover{
+    border: 1px solid red;
+  }
+  #container img{
+    vertical-align: middle;      
+  }
+.fotter-input{
+    border-radius: 0;
+    border: 0;
+    background-color: rgb(95, 95, 95);
+    color: rgb(190, 190, 190);
+}
+.fotter-button{
+    background-color: rgb(54, 54, 54);
+    border: 1px solid rgb(97, 97, 97);
+}
